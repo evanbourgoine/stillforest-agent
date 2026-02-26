@@ -1,0 +1,20 @@
+# Environment variables - never commit these
+.env
+
+# Virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data files (optional - remove if you want to track post history)
+data/
+
+# Mac system files
+.DS_Store
+
+# VS Code
+.vscode/
