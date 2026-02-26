@@ -1,5 +1,6 @@
 # Environment variables - never commit these
 .env
+test_token.py
 
 # Virtual environment
 venv/
