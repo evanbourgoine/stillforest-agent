@@ -125,7 +125,7 @@ if __name__ == "__main__":
     # run_daily_post()
 
     # Uncomment to test comment replies immediately
-    run_comment_replies()
+    # run_comment_replies()
 
     while True:
         schedule.run_pending()
