@@ -113,7 +113,7 @@ def run_comment_replies():
 schedule.every().day.at("09:00").do(run_daily_post)
 
 # Schedule comment checks every 30 minutes
-schedule.every(30).minutes.do(run_comment_replies)
+schedule.every().day.at("19:00").do(run_comment_replies)
 
 if __name__ == "__main__":
     print("Stillforest Agent started.")
