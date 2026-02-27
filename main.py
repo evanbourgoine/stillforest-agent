@@ -118,7 +118,7 @@ schedule.every().day.at("19:00").do(run_comment_replies)
 if __name__ == "__main__":
     print("Stillforest Agent started.")
     print("Post scheduled daily at 9:00 AM.")
-    print("Comments checked every 30 minutes.")
+    print("Comments checked every day.")
     print("Press Ctrl+C to stop.\n")
 
     # Uncomment to test posting immediately
